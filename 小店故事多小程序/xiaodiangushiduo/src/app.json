@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/personList/main",
+    "pages/personDetail/main",
+    "pages/activityList/main",
+    "pages/activityDetail/main",
+    "pages/courseDetail/main",
+    "pages/courseList/main",
+    "pages/projectList/main",
+    "pages/projectDetail/main",
+    "pages/shareDetail/main",
+    "pages/shareList/main",
+    "pages/records/main",
+    "pages/loginEmpower/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+        "text": "人物",
+        "pagePath": "pages/personList/main",
+        "iconPath": "static/tabbar/person.png",
+        "selectedIconPath": "static/tabbar/person-active.png"
+      }, {
+        "text": "活动",
+        "pagePath": "pages/activityList/main",
+        "iconPath": "static/tabbar/activity.png",
+        "selectedIconPath": "static/tabbar/activity-active.png"
+      }, {
+        "text": "项目",
+        "pagePath": "pages/projectList/main",
+        "iconPath": "static/tabbar/project.png",
+        "selectedIconPath": "static/tabbar/project-active.png"
+      },
+      {
+        "text": "课程",
+        "pagePath": "pages/courseList/main",
+        "iconPath": "static/tabbar/course.png",
+        "selectedIconPath": "static/tabbar/course-active.png"
+      }, {
+        "text": "分享",
+        "pagePath": "pages/shareList/main",
+        "iconPath": "static/tabbar/record.png",
+        "selectedIconPath": "static/tabbar/record-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
